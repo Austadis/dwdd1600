@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <title>Rock Climbing for Absolute Noobs: Home</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Learn How to Climb">
+        <meta name="author" content="Isaac Austad">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="climbing.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Climbing for Absolute Noobs</h1>
+                <p>The One-stop Shop for Beginner Climbers</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">History</a></li>
+                <li><a href="technique.html">Techniques</a></li>
+                <li><a href="climbers.html">Climbers</a></li>
+                <li class="active"><a href="kits.html">Starter Kits</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Purchase A Starter Kit</h1>
+            <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name  * <input type="text" name="fname" required>
+            </label>
+            <label>Last Name * <input type="text" name="lname" required>
+            </label>
+            <label>Phone Number * <input type="tel" name="phone" required placeholder="(123) 456-7890">
+            </label>
+            <label>Email * <input type="email" name="email" required>
+            </label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Delivery Method</legend>
+                <input type="radio" name="method" value="UPS">UPS Delivery + $10.83 (7-10 Business Days)
+                <input type="radio" name="method" value="USPS">USPS Delivery + $6.75 (3-5 Business Days)
+                <input type="radio" name="method" value="Express">Express Delivery + $15.75 (1-2 Business Days)  
+                </fieldset>
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="Mailbox" value="clicked"> To Mailbox</label>
+                <label><input type="checkbox" name="Neighbor" value="clicked"> To Neighbor</label>
+                <label><input type="checkbox" name="P.O. Box" value="clicked"> To P.O. Box</label>
+                <label>Preferred Delivery Time
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="Morning">Between 7:00am and 11:00am</option>
+                <option value="noon">Between 11:00am and 2:00pm</option>
+                <option value="afternoon">Between 2:00pm and 5:00pm</option>
+                <option value="evening">Between 5:00pm and 10:pm</option>
+                </select>
+                </label> 
+                
+                
+                </fieldset>
+                
+            <label>Comments
+                <textarea name="comments" placeholder="Type Here"></textarea>
+            
+                
+                </label>    
+                
+                
+                
+                
+                
+            
+            
+            
+            <input type="submit" value="Checkout">
+            </form>  
+       
+        </main>
+        <footer>
+         <p>&copy; Isaac Austad &bull; <a href="mailto:ikeaustad@gmail.com">Email Us</a> &bull; 2023</p>
+        </footer>
+        
+        
+    </body>
+    
+    
+    
+
+</html>
